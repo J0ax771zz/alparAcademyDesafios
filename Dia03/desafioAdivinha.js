@@ -20,6 +20,6 @@ while(tentativaUsuario !== numeroInt){
     tentativas++
     tentativaUsuario = parseInt(prompt("Tente novamente: "));
 }
-//exibe a mensagem quando o usuário acertar o número
+//exibe a
 console.log(`Parabéns você acertou! O número era: ${numeroInt}. \n
     Você levou ${tentativas} tentativas!`);
