@@ -23,7 +23,7 @@ function removerItem(item){
     let indice = listaDeCompras.indexOf(item);
     if(indice !== -1){
         listaDeCompras.splice(indice, 1);
-        console.log(`o item ${item}, foi removido da lista de compras`)
+        console.log(`o item ${item}, foi removido da lista de compras`);
     }else{
         console.log(`O ${item} não foi encontrado! Tente novamente`);
     }
