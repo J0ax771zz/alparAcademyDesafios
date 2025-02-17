@@ -70,3 +70,66 @@ A pontuação final deverá ser exibida na última rodada.
 Poderá ser exibido em tela avisos de ganho e perda de pontos
  
 Divirtam-se!</p>
+
+<h2>Dia 04</h2>
+<h3><strong>Desafio 1 - Lista de compras</strong></h3>
+Crie um programa simples que simula um gerenciador de lista de compras. O usuário poderá adicionar itens à lista, remover itens e visualizar a lista de compras. O programa deve usar vetores (arrays) e funções para organizar o código.
+
+Regras:
+
+O programa deve ter um array chamado listaDeCompras que começa vazio.
+Deve oferecer as seguintes opções ao usuário:
+Adicionar um item à lista.
+Remover um item da lista.
+Exibir os itens da lista.
+Sair do programa.
+O programa deve rodar até que o usuário escolha sair.
+As funções devem ser utilizadas para organizar as operações principais:
+adicionarItem(item): Adiciona um item ao array.
+removerItem(item): Remove um item do array (se existir).
+exibirLista(): Mostra todos os itens da lista no console.
+Dicas:
+
+Use console.log() para exibir mensagens.
+Para manter o programa rodando, utilize um loop while e um switch-case para as opções.
+Você pode pesquisar na internet como usar ou como fazer alguma parte do programa, mas tente não usar IA para resolver o desafio, não engane a si mesmo
+
+
+<h3><strong>Desafio 1.1 - Avaliação de equipes</strong></h3>
+Boa tarde senhores e senhora!
+ 
+Desafio de hoje está tranquilinho, está lúdico, está sextante! 
+ 
+Vocês vão criar um sistema de análise de desempenho de uma equipe. 
+ 
+A quantidade de membros da equipe fica de acordo com o gosto de vocês, desde que seja um mínimo de 3 pessoas. 
+ 
+Cada pessoa receberá uma pontuação com base na quantidade de tarefas que forem completadas e, para considerar a nota final, deverão ser levados em conta os seguintes critérios:
+ 
+1) Cada tarefa recebe uma pontuação de 0 a 10
+2) o número de tarefas varia entre 5 e 10, por pessoa da equipe.
+ 
+A pontuação final de cada membro é feita de acordo com a média ponderada. Ou seja, tarefas ímpares recebem peso 2, enquanto tarefas pares recebem peso 1. 
+ 
+Caso a média ponderada de um membro seja maior que 8, ele recebe um bônus de 2 pontos. 
+ 
+O sistema precisa retornar o nome e a média de cada pessoa do time, quem teve o melhor desempenho, e quem teve o pior desempenho
+
+
+<h2>Dia 05</h2>
+<h3><strong>Desafio 1 - Gerenciamento de usuários</strong></h3>
+Crie um programa simples que permite ao usuário gerenciar um cadastro de pessoas. Cada pessoa terá um nome, idade e e-mail armazenados como um objeto dentro de um array. O usuário poderá adicionar, remover e listar os cadastros.
+
+Regras:
+
+1. O programa deve armazenar os usuários em um array de objetos, onde cada objeto representa uma pessoa com as propriedades:
+nome
+idade
+email
+2. O usuário poderá escolher entre as seguintes opções:
+Adicionar um novo usuário.
+Remover um usuário pelo email.
+Listar todos os usuários cadastrados.
+Sair do programa.
+O programa deve rodar até que o usuário escolha sair.
+Não pode haver mais de um usuário com o mesmo e-mail.
